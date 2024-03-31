@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Smartphone X",
+        "price": 599.99,
+        "description": "A high-performance smartphone with advanced features.",
+        "ratings": 4.5,
+        "images": [
+          {
+            "public_id": "12345",
+            "url": "https://example.com/images/smartphone_x.jpg"
+          },
+          {
+            "public_id": "67890",
+            "url": "https://example.com/images/smartphone_x_back.jpg"
+          }
+        ],
+        "category": "Electronics",
+        "seller": "TechGadgetStore",
+        "stock": 100,
+        "numOfReviews": 25,
+        "reviews": []
+      },
+      {
+        "name": "High-Performance Laptop",
+        "price": 899.99,
+        "description": "A powerful laptop for gaming and productivity tasks.",
+        "ratings": 4.2,
+        "images": [
+          {
+            "public_id": "54321",
+            "url": "https://example.com/images/high_performance_laptop.jpg"
+          }
+        ],
+        "category": "Laptop",
+        "seller": "TechWorld",
+        "stock": 50,
+        "numOfReviews": 15,
+        "reviews": []
+      },
+      {
+        "name": "The Hitchhiker's Guide to the Galaxy",
+        "price": 19.99,
+        "description": "A classic science fiction comedy novel by Douglas Adams.",
+        "ratings": 4.8,
+        "images": [
+          {
+            "public_id": "98765",
+            "url": "https://example.com/images/hitchhikers_guide_book.jpg"
+          }
+        ],
+        "category": "Books",
+        "seller": "BookEmporium",
+        "stock": 75,
+        "numOfReviews": 30,
+        "reviews": []
+      },
+      {
+        "name": "Professional Tennis Racket",
+        "price": 129.99,
+        "description": "A high-quality tennis racket for professional players.",
+        "ratings": 4.6,
+        "images": [
+          {
+            "public_id": "24680",
+            "url": "https://example.com/images/tennis_racket_pro.jpg"
+          }
+        ],
+        "category": "Sports",
+        "seller": "SportsGearHub",
+        "stock": 30,
+        "numOfReviews": 20,
+        "reviews": []
+      },
+      {
+        "name": "Anti-Aging Serum",
+        "price": 49.99,
+        "description": "An advanced anti-aging serum for skincare enthusiasts.",
+        "ratings": 4.2,
+        "images": [
+          {
+            "public_id": "13579",
+            "url": "https://example.com/images/anti_aging_serum.jpg"
+          }
+        ],
+        "category": "Beauty/Health",
+        "seller": "GlowingSkinCo",
+        "stock": 60,
+        "numOfReviews": 25,
+        "reviews": []
+      }
+      
+      
+      
+      
+      
+]
