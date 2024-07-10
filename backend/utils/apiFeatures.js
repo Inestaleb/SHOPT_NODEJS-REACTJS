@@ -23,14 +23,14 @@ class APIFeatures {
     // removing fields from the query
     const removeFields = ["keyword", "limit", "page"];
     removeFields.forEach((el) => delete queryCopy[el]);
-   
+
     //advance filter for price ,ratings etc
     let queryStr=JSON.stringify(queryCopy)
-    //queryStr = queryStr.replace()
+     queryStr = queryStr.replace(/\b(gt|gte|lt|lte)\b/g,match=>`$${match}`)
 
 
-   
-    this.query = this.query.find(queryCopy);
+
+    this.query = this.query.find(JSON.parse(queryStr));
     return this;
   }
 }
